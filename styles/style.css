@@ -1,4 +1,130 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
+}
+/* Primary button */
+.primary-btn{
+    height: 65px;
+    border: none;
+    color: #ffffff;
+    background-color:#FD6E0A;
+    border-radius: 10px;
+    padding: 9px 50px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.secondary-btn{
+    height: 65px;
+    border: 1px solid red;
+    color: #FD6E0A;
+    background-color:#Fff;
+    border-radius: 10px;
+    padding: 9px 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.primary-color{
+    color:#FD6E0A;  
+}
+
+/* .......... */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size:700px;
+    height: 100vh;
+   
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+
+}
+.navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav-banner{
+    margin: 40px 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-banner-left{
+    text-align: center;
+    align-items: center;
+    
+}
+.calling{
+    letter-spacing: 2px;
+    padding-bottom:px;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom:20px;
+}
+.calling-me{
+    font-weight: 700;
+    font-size: 84px;
+    margin-bottom: 20px;
+}
+.titu{
+    width:450px;
+    height: auto;
+    margin-left: 490px;
+
+    
+}
+.nav-button{
+    display: flex;
+   gap: 10px;
+   margin-top: 20px;
+}
+/* abouts part */
+.abouts{
+    width: 1140px;
+    height: 550px;
+    margin: auto;
+    background: #f8ece4;
+    
+    
+}
+.about{
+    margin: 50px;
+    text-align: center;
+    
+}
+.about-title{
+    padding: 132px 156px;
+    margin-bottom: 25px;
+}
+.about-me{
+    margin-bottom: 30px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.all-connection{
+    display: flex;
+}
+.all-connection h3{
+    display: block;
 }
